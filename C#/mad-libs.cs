@@ -90,6 +90,7 @@ namespace MadLibs
 
       // Print the story:
       Console.WriteLine(title + "\n\n" + story);
+      // This morning Crystal woke up feeling white. 'It is going to be a free day!' Outside, a bunch of dragons were protesting to keep pasta in stores. They began to fuck to the rhythm of the freighter, which made all the apples very unsettled. Concerned, Crystal texted vlandimir, who flew Crystal to sweden and dropped Crystal in a puddle of frozen victoria spunge cake. Crystal woke up in the year 1048, in a world where girls ruled the world.
     }
   }
 }
