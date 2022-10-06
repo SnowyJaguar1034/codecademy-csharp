@@ -6,9 +6,8 @@ namespace MadLibs
   {
     static void Main(string[] args)
     {
-      /*
-      Description & Author of the program:
-      */
+      
+      // Description & Author of the program:
       string description = "This program creates a unique Mad Libs story from the users inputs.";
       string author = "Teagan Collyer";
 
@@ -18,14 +17,22 @@ namespace MadLibs
       // Give the Mad Lib a title:
       Console.WriteLine("Give the Mad Lib a title: ");
       string title = Console.ReadLine();
-
       Console.WriteLine($"You gave the Mad Lib a title of: {title}");
 
       // Define user input and variables:
+      // Charcter Name
       Console.WriteLine("Name your main character: ");
       string name = Console.ReadLine();
+      
+      // Seperator Line, Helps make the terminal feel less cramped
+      Console.WriteLine("\n") 
 
-      Console.WriteLine("Now it's time to enter your three adjectives.\nAn adjective is a word that describes a noun, like a color (‘blue’), or feeling (‘silly’), texture (‘soft’).");
+      // Three Adjectives
+      // Seperator Line, Helps make the terminal feel less cramped
+      Console.WriteLine("\n") 
+      Console.WriteLine(@"Now it's time to enter your three adjectives.
+                        
+                        An adjective is a word that describes a noun, like a color (‘blue’), or feeling (‘silly’), texture (‘soft’).");
       Console.Write("First adjective: ");
       string adj1 = Console.ReadLine();
 
@@ -34,18 +41,32 @@ namespace MadLibs
 
       Console.Write("Third adjective: ");
       string adj3 = Console.ReadLine();
+      
+      // One Verb
+      // Seperator Line, Helps make the terminal feel less cramped
+      Console.WriteLine("\n") 
 
-      Console.WriteLine("Now it's time to enter your verb.\nA verb is a word that represents an action, like ‘sit’, ‘eat’, ‘sleep’.");
+      Console.WriteLine(@"Now it's time to enter your verb.
+                        A verb is a word that represents an action, like ‘sit’, ‘eat’, ‘sleep’.");
       Console.WriteLine("Verb: ");
       string verb = Console.ReadLine();
+      
+      // Two Nouns
+      // Seperator Line, Helps make the terminal feel less cramped
+      Console.WriteLine("\n") 
 
-      Console.WriteLine("Now it's time to enter your two nouns.\nA noun is a person (‘girl’), place (‘cabin’), or thing (‘toaster’).");
+      Console.WriteLine(@"Now it's time to enter your two nouns.
+                        A noun is a person (‘girl’), place (‘cabin’), or thing (‘toaster’).");
       Console.WriteLine("First noun: ");
       string noun1 = Console.ReadLine();
 
       Console.WriteLine("Second noun: ");
       string noun2 = Console.ReadLine();
       
+      // Seperator Line, Helps make the terminal feel less cramped
+      Console.WriteLine("\n")
+      
+      // Random Input
       Console.WriteLine("Now it's time for more general random inputs.");
       Console.WriteLine("A type of animal: ");
       string animal = Console.ReadLine();
